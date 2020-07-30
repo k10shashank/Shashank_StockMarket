@@ -5712,11 +5712,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vnssh\\source\\repos\\StockMarketCharting\\StockMarket.Gateway\\StockMarket.Gateway.csproj",
+      "projectUniqueName": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.Gateway\\StockMarket.Gateway.csproj",
       "projectName": "StockMarket.Gateway",
-      "projectPath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCharting\\StockMarket.Gateway\\StockMarket.Gateway.csproj",
+      "projectPath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.Gateway\\StockMarket.Gateway.csproj",
       "packagesPath": "C:\\Users\\vnssh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCharting\\StockMarket.Gateway\\obj\\",
+      "outputPath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.Gateway\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vnssh\\AppData\\Roaming\\NuGet\\NuGet.Config",

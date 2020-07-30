@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vnssh\\source\\repos\\StockMarketCharting\\StockMarket.UserAPI\\StockMarket.UserAPI.csproj": {}
+    "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.UserAPI\\StockMarket.UserAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vnssh\\source\\repos\\StockMarketCharting\\StockMarket.UserAPI\\StockMarket.UserAPI.csproj": {
+    "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.UserAPI\\StockMarket.UserAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vnssh\\source\\repos\\StockMarketCharting\\StockMarket.UserAPI\\StockMarket.UserAPI.csproj",
+        "projectUniqueName": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.UserAPI\\StockMarket.UserAPI.csproj",
         "projectName": "StockMarket.UserAPI",
-        "projectPath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCharting\\StockMarket.UserAPI\\StockMarket.UserAPI.csproj",
+        "projectPath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.UserAPI\\StockMarket.UserAPI.csproj",
         "packagesPath": "C:\\Users\\vnssh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCharting\\StockMarket.UserAPI\\obj\\",
+        "outputPath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.UserAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vnssh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

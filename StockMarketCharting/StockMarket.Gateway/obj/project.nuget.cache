@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kk5E94pxFqXXC8+0nw/Xc+0l+CRVGqwBW14BQ8aemOJRYidfbHu68xV+8NhHM7+8E9M/uRZjvd8qDg3ayhowEw==",
+  "dgSpecHash": "VRfDd1gBOgGS+3Ox7pVFRaPbasLlTB3Z2G39LCC2KOU18Q0zGti2cDiaqYwL2mO0s07p2TkZPhS4XJ0XvxJVFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCharting\\StockMarket.Gateway\\StockMarket.Gateway.csproj",
+  "projectFilePath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.Gateway\\StockMarket.Gateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vnssh\\.nuget\\packages\\cachemanager.core\\1.2.0\\cachemanager.core.1.2.0.nupkg.sha512",
     "C:\\Users\\vnssh\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",

@@ -1,0 +1,70 @@
+<h1>Manage Company Component</h1>
+
+<div class="container">
+    <table  class="table table-bordered table-hover">
+      <tr>
+        <td>Company Code</td>
+        <td>
+        <input type="number" class="form-control" [(ngModel)]="companyCode" required="required" pattern="" title="">
+        </td>
+      </tr>
+      <tr>
+        <td>Company Name</td>
+        <td>
+        <input type="text" class="form-control" [(ngModel)]="companyName" required="required" pattern="" title="">
+        </td>
+      </tr>
+      <tr>
+        <td>Turnover</td>
+        <td>
+        <input type="number" class="form-control" [(ngModel)]="turnover" required="required" pattern="" title="">
+        </td>
+      </tr>
+      <tr>
+        <td>CEO</td>
+        <td>
+        <input type="text" class="form-control" [(ngModel)]="ceo" required="required" pattern="" title="">
+        </td>
+      </tr>
+      <tr>
+        <td>Sector</td>
+        <td>
+        <input type="number" class="form-control" [(ngModel)]="sector" required="required" pattern="" title="">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <button class="btn-primary" (click)="GetCompanyDetails()">Search</button>
+          <button class="btn-primary" (click)="AddCompany()">Add</button>
+          <button class="btn-primary" (click)="EditCompany()">Update</button>
+          <button class="btn-primary" (click)="DeleteCompany()">Delete</button>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" class="text-info">
+          {{errormsg}}
+        </td>
+      </tr>
+    </table>
+    
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Company Code</th>
+                <th>Company Name</th>
+                <th>Turnover</th>
+                <th>CEO</th>
+                <th>Sector</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of companyList">
+                <td>{{item.companyCode}}</td>
+                <td>{{item.companyName}}</td>
+                <td>{{item.turnover}}</td>
+                <td>{{item.ceo}</td>
+                <td>{{item.sector}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

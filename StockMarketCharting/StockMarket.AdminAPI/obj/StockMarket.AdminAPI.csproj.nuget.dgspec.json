@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vnssh\\source\\repos\\StockMarketCharting\\StockMarket.AdminAPI\\StockMarket.AdminAPI.csproj": {}
+    "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.AdminAPI\\StockMarket.AdminAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vnssh\\source\\repos\\StockMarketCharting\\StockMarket.AdminAPI\\StockMarket.AdminAPI.csproj": {
+    "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.AdminAPI\\StockMarket.AdminAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vnssh\\source\\repos\\StockMarketCharting\\StockMarket.AdminAPI\\StockMarket.AdminAPI.csproj",
+        "projectUniqueName": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.AdminAPI\\StockMarket.AdminAPI.csproj",
         "projectName": "StockMarket.AdminAPI",
-        "projectPath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCharting\\StockMarket.AdminAPI\\StockMarket.AdminAPI.csproj",
+        "projectPath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.AdminAPI\\StockMarket.AdminAPI.csproj",
         "packagesPath": "C:\\Users\\vnssh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCharting\\StockMarket.AdminAPI\\obj\\",
+        "outputPath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.AdminAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vnssh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
