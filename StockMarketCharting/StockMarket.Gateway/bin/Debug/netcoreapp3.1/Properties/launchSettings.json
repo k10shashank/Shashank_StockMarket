@@ -4,7 +4,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:60458",
+      "applicationUrl": "http://localhost:60000",
       "sslPort": 44353
     }
   },
@@ -20,8 +20,8 @@
     "StockMarket.Gateway": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/gate",
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "launchUrl": "", //gateway removed "api/gate
+      "applicationUrl": "http://localhost:7000", //gateway removed https localhost
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

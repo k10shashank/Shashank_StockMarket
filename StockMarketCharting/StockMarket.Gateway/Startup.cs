@@ -31,8 +31,12 @@ namespace StockMarket.Gateway
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddSwaggerGen();
+
+            //gateway
             services.AddOcelot(Configuration);
+
+            //services.AddSwaggerGen();
+            //services.AddOcelot(Configuration);
 
             // add cors statement
             services.AddCors(c =>
@@ -63,19 +67,24 @@ namespace StockMarket.Gateway
                 app.UseDeveloperExceptionPage();
             }
 
+            /*
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", " My APIv1");
 
             });
+            */
 
             app.UseRouting();
+
+            //gateway
+            await app.UseOcelot();
 
             //cors
             app.UseCors("AllowOrigin");
 
-            await app.UseOcelot();
+            //await app.UseOcelot();
 
             // app.UseCors(MyAllowSpecificOrigins);
 

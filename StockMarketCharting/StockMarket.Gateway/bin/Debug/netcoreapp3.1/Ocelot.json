@@ -7,21 +7,21 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5001
+          "Port": 59472
         }
       ],
       "UpstreamPathTemplate": "/Account/{catchAll}"
 
     },
 
-    //ExcelEFAPI
+    //ExcelAPI
     {
       "DownstreamPathTemplate": "/api/Excel/{catchAll}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5004
+          "Port": 59600
         }
       ],
       "UpstreamPathTemplate": "/Excel/{catchAll}"
@@ -34,7 +34,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5002
+          "Port": 59534
         }
       ],
       "UpstreamPathTemplate": "/Company/{catchAll}"
@@ -47,7 +47,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5002
+          "Port": 59534
         }
       ],
       "UpstreamPathTemplate": "/Stockexchange/{catchAll}"
@@ -60,7 +60,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5002
+          "Port": 59534
         }
       ],
       "UpstreamPathTemplate": "/Stockprice/{catchAll}"
@@ -73,7 +73,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5003
+          "Port": 59576
         }
       ],
       "UpstreamPathTemplate": "/Comparison/{catchAll}"
@@ -86,7 +86,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5003
+          "Port": 59576
         }
       ],
 
@@ -95,6 +95,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:5005"
+    "BaseUrl": "http://localhost:60000"
   }
 }
