@@ -1,0 +1,68 @@
+<h1>StockExchange Component</h1>
+
+<div class="container">
+    <table  class="table table-bordered table-hover">
+      <tr>
+        <td>Stock Exchange ID</td>
+        <td>
+        <input type="number" class="form-control" [(ngModel)]="stockExchangeId" required="required" pattern="" title="">
+        </td>
+      </tr>
+      <tr>
+        <td>Stock Exchange Name</td>
+        <td>
+        <input type="text" class="form-control" [(ngModel)]="stockExchangeName" required="required" pattern="" title="">
+        </td>
+      </tr>
+      <tr>
+        <td>Brief</td>
+        <td>
+        <input type="text" class="form-control" [(ngModel)]="brief" required="required" pattern="" title="">
+        </td>
+      </tr>
+      <tr>
+        <td>Address</td>
+        <td>
+        <input type="text" class="form-control" [(ngModel)]="address" required="required" pattern="" title="">
+        </td>
+      </tr>
+      <tr>
+        <td>Remarks</td>
+        <td>
+        <input type="text" class="form-control" [(ngModel)]="remarks" required="required" pattern="" title="">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <button class="btn-primary" (click)="GetStockexchangeDetails()">Search</button>
+          <button class="btn-primary" (click)="AddStockexchange()">Add</button>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" class="text-info">
+          {{errormsg}}
+        </td>
+      </tr>
+    </table>
+    
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Stock Exchange ID</th>
+                <th>Stock Exchange Name</th>
+                <th>Brief</th>
+                <th>Address</th>
+                <th>Remarks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of stockexchangeList">
+                <td>{{item.stockExchangeId}}</td>
+                <td>{{item.stockExchangeName}}</td>
+                <td>{{item.brief}}</td>
+                <td>{{item.address}}</td>
+                <td>{{item.remarks}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

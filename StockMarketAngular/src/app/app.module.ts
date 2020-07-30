@@ -8,12 +8,14 @@ import { ManageCompaniesComponent } from './containers/manage-companies/manage-c
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CompanyService } from './services/company.service';
+import { StockexchangeComponent } from './containers/stockexchange/stockexchange.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserloginComponent,
-    ManageCompaniesComponent
+    ManageCompaniesComponent,
+    StockexchangeComponent
   ],
   imports: [
     BrowserModule,

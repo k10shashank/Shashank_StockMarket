@@ -1,5 +1,5 @@
 export class Stockexchange {
-    stockExhangeId: number;
+    stockExchangeId: number;
     stockExchangeName: string;
     brief: string;
     address: string;
