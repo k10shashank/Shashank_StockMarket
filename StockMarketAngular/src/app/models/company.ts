@@ -3,7 +3,7 @@ export class Company {
     companyName: string;
     turnover: number;
     ceo: string;
-    sector: number;
+    sectorId: number;
     boardOfDirectors: string = "";
     listedStockExchange: string = "";
 }

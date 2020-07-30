@@ -16,7 +16,7 @@ export class ManageCompaniesComponent implements OnInit {
   companyName: string;
   turnover: number;
   ceo: string;
-  sector: number;
+  sectorId: number;
 
   errormsg: string;
 
@@ -37,7 +37,7 @@ export class ManageCompaniesComponent implements OnInit {
       this.companyName = this.companyObject.companyName;
       this.turnover = this.companyObject.turnover;
       this.ceo = this.companyObject.ceo;
-      this.sector = this.companyObject.sector;
+      this.sectorId = this.companyObject.sectorId;
       this.errormsg = "";
     })
   }
@@ -48,7 +48,7 @@ export class ManageCompaniesComponent implements OnInit {
     this.companyObject.companyName = this.companyName;
     this.companyObject.turnover = this.turnover;
     this.companyObject.ceo = this.ceo;
-    this.companyObject.sector = this.sector;
+    this.companyObject.sectorId = this.sectorId;
 
     this.service.AddCompany(this.companyObject).subscribe(response => {}, err =>  {
       console.log(err);
@@ -62,7 +62,7 @@ export class ManageCompaniesComponent implements OnInit {
     this.companyObject.companyName = this.companyName;
     this.companyObject.turnover = this.turnover;
     this.companyObject.ceo = this.ceo;
-    this.companyObject.sector = this.sector;
+    this.companyObject.sectorId = this.sectorId;
 
     this.service.EditCompany(this.companyObject).subscribe(i => {
       console.log(i);
