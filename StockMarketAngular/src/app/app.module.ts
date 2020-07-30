@@ -9,13 +9,19 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CompanyService } from './services/company.service';
 import { StockexchangeComponent } from './containers/stockexchange/stockexchange.component';
+import { StockexchangeService } from './services/stockexchange.service';
+import { StockpriceService } from './services/stockprice.service';
+import { ComparisonService } from './services/comparison.service';
+import { UserService } from './services/user.service';
+import { SignupComponent } from './containers/signup/signup.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserloginComponent,
     ManageCompaniesComponent,
-    StockexchangeComponent
+    StockexchangeComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +29,7 @@ import { StockexchangeComponent } from './containers/stockexchange/stockexchange
     FormsModule,
     HttpClientModule
   ],
-  providers: [CompanyService],
+  providers: [CompanyService,StockexchangeService,StockpriceService,ComparisonService,UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

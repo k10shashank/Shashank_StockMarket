@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { LoginService } from 'src/app/services/login.service';
+import { User } from 'src/app/models/user';
+import { UserService } from 'src/app/services/user.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-userlogin',
@@ -8,19 +10,44 @@ import { LoginService } from 'src/app/services/login.service';
   styleUrls: ['./userlogin.component.css']
 })
 export class UserloginComponent implements OnInit {
-  userID = new FormControl();
-  password = new FormControl();
-  loginCheck: Boolean = false;
+  userObject: User;
 
-  constructor() { 
-    var _loginService = LoginService;
-  }
+  userId: number;
+  username: string;
+  password: string;
+  userType: string;
+  email: string;
+  mobile: string;
+  confirmed: string;
+
+  errmsg: string = "";
+
+  constructor(private service: UserService, private router: Router) { }
 
   ngOnInit(): void {
   }
 
-  // checkLogin: void {
-  //   this.loginCheck =  LoginService.check
-  // }
+  public Login() {
+    this.service.Login(this.username, this.password).subscribe(item => {
+      this.userObject = item;
+      this.userId = this.userObject.userId;
+      this.username = this.userObject.username;
+      this.password = this.userObject.password;
+      this.userType = this.userObject.userType;
+      this.email = this.userObject.email;
+      this.mobile = this.userObject.mobile;
+      this.confirmed = this.userObject.confirmed;
+      this.errmsg = "Valid";
+    }, err => {
+      this.resetForm();
+      this.errmsg = "Invalid"
+      console.log(err);
+    })
+  }
 
+  public resetForm() {
+    this.username = "";
+    this.password = "";
+    this.errmsg = "";
+  }
 }

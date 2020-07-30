@@ -1,0 +1,53 @@
+<h1>SignUp Component</h1>
+
+<div class="container">
+    <table  class="table table-bordered table-hover">
+        <tr>
+            <td>User ID</td>
+            <td>
+                <input type="number" class="form-control" [(ngModel)]="userId" required="required" pattern="" title="">
+            </td>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td>
+                <input type="text" class="form-control" [(ngModel)]="username" required="required" pattern="" title="">
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>
+                <input type="password" class="form-control" [(ngModel)]="password" required="required" pattern="" title="">
+            </td>
+        </tr>
+        <tr>
+            <td>User Type</td>
+            <td>
+                <input type="text" class="form-control" [(ngModel)]="userType" required="required" pattern="" title="">
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" class="form-control" [(ngModel)]="email" pattern="" title="">
+            </td>
+        </tr>
+        <tr>
+            <td>Mobile</td>
+            <td>
+                <input type="text" class="form-control" [(ngModel)]="mobile" pattern="" title="">
+            </td>
+        </tr>
+        <tr>
+            <td>Confirmed</td>
+            <td>
+                <input type="text" class="form-control" [(ngModel)]="confirmed" pattern="" title="">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button class="btn-primary" type="submit" (click)="Signup()">Sign Up</button>
+            </td>
+        </tr>
+    </table>
+</div>

@@ -27,7 +27,7 @@ export class CompanyService {
     console.log(item);
     return this.http.post(this.path+"AddCompany/",item);
   }
-
+  
   public EditCompany(item:Company):Observable<any>
   {
     console.log(item);
