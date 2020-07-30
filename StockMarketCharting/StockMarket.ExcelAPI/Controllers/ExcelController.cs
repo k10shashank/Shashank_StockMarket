@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -14,6 +15,7 @@ namespace StockMarket.ExcelAPI.Controllers
     [Produces("application/json")]
     [Route("api/[Controller]")]
     [ApiController]
+    [EnableCors("AllowOrigin")]
     public class ExcelController : ControllerBase
     {
         //[Obsolete]

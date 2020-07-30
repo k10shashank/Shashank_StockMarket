@@ -3,4 +3,5 @@ export class Stockexchange {
     stockExchangeName: string;
     brief: string;
     address: string;
+    remarks: string;
 }

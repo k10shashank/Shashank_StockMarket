@@ -25,6 +25,13 @@ namespace StockMarket.AccountAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            // add cors statement
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options =>
+                options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,6 +43,9 @@ namespace StockMarket.AccountAPI
             }
 
             app.UseRouting();
+
+            //cors
+            app.UseCors("AllowOrigin");
 
             app.UseAuthorization();
 

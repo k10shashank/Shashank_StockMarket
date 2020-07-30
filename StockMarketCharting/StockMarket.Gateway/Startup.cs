@@ -34,6 +34,14 @@ namespace StockMarket.Gateway
             services.AddSwaggerGen();
             services.AddOcelot(Configuration);
 
+            // add cors statement
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options =>
+                options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            });
+
+            /*
             services.AddCors(options =>
             {
                 options.AddPolicy(name: MyAllowSpecificOrigins, builder =>
@@ -44,6 +52,7 @@ namespace StockMarket.Gateway
                     builder.AllowAnyMethod();
                 });
             });
+            */
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -63,9 +72,12 @@ namespace StockMarket.Gateway
 
             app.UseRouting();
 
+            //cors
+            app.UseCors("AllowOrigin");
+
             await app.UseOcelot();
 
-            app.UseCors(MyAllowSpecificOrigins);
+            // app.UseCors(MyAllowSpecificOrigins);
 
             app.UseAuthorization();
 
