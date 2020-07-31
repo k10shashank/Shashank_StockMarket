@@ -6,6 +6,8 @@ import { ManageCompaniesComponent } from './containers/manage-companies/manage-c
 import { StockexchangeComponent } from './containers/stockexchange/stockexchange.component';
 import { SignupComponent } from './containers/signup/signup.component';
 import { BarchartComponent } from './containers/barchart/barchart.component';
+import { AdminloginComponent } from './containers/adminlogin/adminlogin.component';
+import { UserviewCompaniesComponent } from './containers/userview-companies/userview-companies.component';
 
 
 const routes: Routes = [
@@ -14,7 +16,9 @@ const routes: Routes = [
   {path:'signup', component: SignupComponent},
   {path:'managecompany', component: ManageCompaniesComponent},
   {path:'stockexchange', component: StockexchangeComponent},
-  {path:'barchart', component: BarchartComponent}
+  {path:'barchart', component: BarchartComponent},
+  {path:'adminlogin', component: AdminloginComponent},
+  {path:'userviewcompany', component: UserviewCompaniesComponent}
 ];
 
 @NgModule({

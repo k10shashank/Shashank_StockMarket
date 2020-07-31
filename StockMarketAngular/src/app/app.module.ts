@@ -17,6 +17,8 @@ import { ComparisonService } from './services/comparison.service';
 import { UserService } from './services/user.service';
 import { SignupComponent } from './containers/signup/signup.component';
 import { BarchartComponent } from './containers/barchart/barchart.component';
+import { AdminloginComponent } from './containers/adminlogin/adminlogin.component';
+import { UserviewCompaniesComponent } from './containers/userview-companies/userview-companies.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { BarchartComponent } from './containers/barchart/barchart.component';
     ManageCompaniesComponent,
     StockexchangeComponent,
     SignupComponent,
-    BarchartComponent
+    BarchartComponent,
+    AdminloginComponent,
+    UserviewCompaniesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,41 @@
+<h2>User Companies</h2>
+
+<div>
+    <div class="container">
+        <table  class="table table-bordered table-hover">
+            <tr>
+                <td>Company Word Search</td>
+                <td>
+                    <input type="text" class="form-control" placeholder="Search Company by Word" [(ngModel)]="companyWord" required="required" pattern="" title="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button class="btn-primary" (click)="GetCompanies()">Search</button>
+                </td>
+              </tr>
+        </table>
+    </div>
+    <div style="display: block">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Company Code</th>
+                    <th>Company Name</th>
+                    <th>Turnover</th>
+                    <th>CEO</th>
+                    <th>Sector</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of companyList">
+                    <td>{{item.companyCode}}</td>
+                    <td>{{item.companyName}}</td>
+                    <td>{{item.turnover}}</td>
+                    <td>{{item.ceo}}</td>
+                    <td>{{item.sectorId}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
