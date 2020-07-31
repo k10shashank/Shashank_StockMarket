@@ -25,10 +25,10 @@ namespace StockMarket.AdminAPI.Repositories
             }
         }
 
-        public List<Stockprice> GetStockprices()
+        public List<Stockprice> GetStockprices(int cmpcode)
         {
             List<Stockprice> stockprices = new List<Stockprice>();
-            stockprices = db.Stockprice.ToList();
+            stockprices = db.Stockprice.Where(i => i.CompanyCode == cmpcode).ToList();
             if(stockprices != null)
             {
                 return stockprices;

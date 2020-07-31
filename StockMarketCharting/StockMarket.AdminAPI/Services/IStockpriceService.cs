@@ -9,6 +9,6 @@ namespace StockMarket.AdminAPI.Services
     interface IStockpriceService
     {
         bool CheckMissingData(int cmpcode, DateTime date);
-        List<Stockprice> GetStockprices();
+        List<Stockprice> GetStockprices(int cmpcode);
     }
 }

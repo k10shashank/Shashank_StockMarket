@@ -15,9 +15,9 @@ namespace StockMarket.AdminAPI.Services
             return _repo.CheckMissingData(cmpcode, date);
         }
 
-        public List<Stockprice> GetStockprices()
+        public List<Stockprice> GetStockprices(int cmpcode)
         {
-            return _repo.GetStockprices();
+            return _repo.GetStockprices(cmpcode);
         }
     }
 }

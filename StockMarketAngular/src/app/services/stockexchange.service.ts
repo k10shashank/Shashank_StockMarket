@@ -13,7 +13,7 @@ export class StockexchangeService {
 
   public GetStockexchanges(): Observable<Stockexchange[]>
   {
-    return this.http.get<Stockexchange[]>(this.path+"GetCompanies")
+    return this.http.get<Stockexchange[]>(this.path+"GetStockexchanges")
   }
   
   public GetStockexchangeDetails(id:number): Observable<any>

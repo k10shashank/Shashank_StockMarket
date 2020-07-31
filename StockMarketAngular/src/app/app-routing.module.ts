@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { ManageCompaniesComponent } from './containers/manage-companies/manage-companies.component';
 import { StockexchangeComponent } from './containers/stockexchange/stockexchange.component';
 import { SignupComponent } from './containers/signup/signup.component';
+import { BarchartComponent } from './containers/barchart/barchart.component';
 
 
 const routes: Routes = [
@@ -12,7 +13,8 @@ const routes: Routes = [
   {path:'userlogin', component: UserloginComponent},
   {path:'signup', component: SignupComponent},
   {path:'managecompany', component: ManageCompaniesComponent},
-  {path:'stockexchange', component:StockexchangeComponent}
+  {path:'stockexchange', component: StockexchangeComponent},
+  {path:'barchart', component: BarchartComponent}
 ];
 
 @NgModule({

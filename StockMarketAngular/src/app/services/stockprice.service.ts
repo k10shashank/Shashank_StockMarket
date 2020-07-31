@@ -11,9 +11,9 @@ export class StockpriceService {
 
   constructor(private http: HttpClient) { }
 
-  public GetStockprices(): Observable<Stockprice[]>
+  public GetStockprices(cmpcode: number): Observable<any>
   {
-    return this.http.get<Stockprice[]>(this.path+"GetStockprices")
+    return this.http.get<any>(this.path+"GetStockprices/"+cmpcode)
   }
 
   public CheckMissingData(cmpcode: number, date: Date): Observable<string>

@@ -33,11 +33,11 @@ namespace StockMarket.AdminAPI.Controllers
         }
 
         [HttpGet]
-        [Route("GetStockprices")]
-        public IActionResult GetStockprices()
+        [Route("GetStockprices/{cmpcode}")]
+        public IActionResult GetStockprices(int cmpcode)
         {
             List<Stockprice> stockprices = new List<Stockprice>();
-            stockprices = service.GetStockprices();
+            stockprices = service.GetStockprices(cmpcode);
             if (stockprices != null)
             {
                 return Ok(stockprices);

@@ -1,4 +1,5 @@
 import { Time } from '@angular/common';
+import { Timestamp } from 'rxjs';
 
 export class Stockprice {
     stockPriceId: number;
@@ -6,5 +7,5 @@ export class Stockprice {
     stockExchangeId: number;
     currentPrice: number;
     date: Date;
-    time: Time;
+    time: Date;
 }
