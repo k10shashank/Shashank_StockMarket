@@ -20,21 +20,33 @@ export class BarchartComponent implements OnInit {
   timeList: string[] = [];
 
   stockPriceId: number;
-  companyCode: number;
+  companyCode: number = 0;
   stockExchangeId: number;
   currentPrice: number;
   date: Date;
   time: Date;
 
-  barchart = [];
+  showGraph: boolean = false;
   errmsg: string = "";
 
+  barChartOptions = {
+    scaleShowVerticalLines: false,
+    responsive: true
+  };
+
+  barChartLabels = this.timeList;
+  barChartType = 'bar';
+  barChartLegend = true;
+  barChartData = [
+    {data: this.priceList, label: this.companyCode.toString()}
+  ];
+
   constructor(private service: StockpriceService, private router: Router) { 
-    this.service.GetStockprices(500112).subscribe(i => {
+    /*this.service.GetStockprices(this.companyCode).subscribe(i => {
       this.stockpriceList = i;
       console.log(this.stockpriceList);
 
-      this.stockpriceList.forEach(element => {
+      /*this.stockpriceList.forEach(element => {
         this.priceList.push(element.currentPrice);
         console.log(this.priceList);
         //this.timeList.push("A"); //element.time.getTime().toString());
@@ -42,23 +54,44 @@ export class BarchartComponent implements OnInit {
         this.timeList.push(element.time.hours.toString()+":"+element.time.minutes.toString()+":"+element.time.seconds.toString());
         console.log(this.timeList);
         });
-    });
-
-    
+    });*/
   }
 
   ngOnInit() {  
   }
 
-  public barChartOptions = {
-    scaleShowVerticalLines: false,
-    responsive: true
-  };
+  public GetGraph() {
+    this.timeList = [];
+    this.priceList = [];
+    
+    this.service.GetStockprices(this.companyCode).subscribe(i => {
+      this.stockpriceList = i;
+      //console.log(this.stockpriceList);
 
-  public barChartLabels = this.timeList;
-  public barChartType = 'bar';
-  public barChartLegend = true;
-  public barChartData = [
-    {data: this.priceList, label: '500112'}
-  ];
+      this.stockpriceList.forEach(element => {
+        this.priceList.push(element.currentPrice);
+        console.log(this.priceList);
+        this.timeList.push(element.time.hours.toString()+":"+element.time.minutes.toString()+":"+element.time.seconds.toString());
+        console.log(this.timeList);
+      });
+      
+      //console.log(this.companyCode);
+      //console.log(this.priceList);
+      //console.log(this.timeList);
+  
+      this.barChartOptions = {
+        scaleShowVerticalLines: false,
+        responsive: true
+      };
+    
+      this.barChartLabels = this.timeList;
+      this.barChartType = 'bar';
+      this.barChartLegend = true;
+      this.barChartData = [
+        {data: this.priceList, label: this.companyCode.toString()}
+      ];
+  
+      this.showGraph = true;
+    });    
+  }
 }

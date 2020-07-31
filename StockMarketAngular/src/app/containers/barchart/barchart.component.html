@@ -1,7 +1,22 @@
 <h2>BarChart</h2>
 
 <div>
-    <div style="display: block">
+    <div class="container">
+        <table  class="table table-bordered table-hover">
+            <tr>
+                <td>Company Code</td>
+                <td>
+                    <input type="number" class="form-control" placeholder="Graph By Company" [(ngModel)]="companyCode" required="required" pattern="" title="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button class="btn-primary" (click)="GetGraph()">Graph</button>
+                </td>
+              </tr>
+        </table>
+    </div>
+    <div style="display: block" *ngIf="showGraph">
         <canvas baseChart
             [datasets]="barChartData"
             [labels]="barChartLabels"
