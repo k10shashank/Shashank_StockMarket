@@ -1,6 +1,9 @@
 <h1>User Login Component</h1>
 
 <div class="container">
+    <a class="nav-link" [routerLink]="['']"><button class="btn btn-primary btn-block">Back</button></a>
+</div>
+<div class="container">
     <div class="card-body">
         <h3 class="card-title">Sign In</h3>
         <div class="container">
@@ -16,6 +19,8 @@
             <div>
                 <button class="btn btn-primary btn-block" type="submit" (click)="Login()">Log In</button>
                 <button class="btn btn-primary btn-block" type="submit" (click)="resetForm()">Reset</button>
+                <br><br><br>
+                <a class="nav-link" [routerLink]="['/signup']"><button class="btn btn-primary btn-block">Register User</button></a>
             </div>
         </div>
     </div>

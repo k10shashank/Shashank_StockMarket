@@ -20,6 +20,7 @@ export class AdminloginComponent implements OnInit {
   public Login() {
     if (this.admin == "admin001" && this.password == "admin001") {
       this.errmsg = "valid";
+      this.router.navigate(['/adminapp']);
     } else {
       this.errmsg = "invalid";
     }

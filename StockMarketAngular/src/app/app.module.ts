@@ -19,6 +19,9 @@ import { SignupComponent } from './containers/signup/signup.component';
 import { BarchartComponent } from './containers/barchart/barchart.component';
 import { AdminloginComponent } from './containers/adminlogin/adminlogin.component';
 import { UserviewCompaniesComponent } from './containers/userview-companies/userview-companies.component';
+import { AppbaseComponent } from './containers/appbase/appbase.component';
+import { AdminappComponent } from './containers/adminapp/adminapp.component';
+import { UserappComponent } from './containers/userapp/userapp.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import { UserviewCompaniesComponent } from './containers/userview-companies/user
     SignupComponent,
     BarchartComponent,
     AdminloginComponent,
-    UserviewCompaniesComponent
+    UserviewCompaniesComponent,
+    AppbaseComponent,
+    AdminappComponent,
+    UserappComponent
   ],
   imports: [
     BrowserModule,

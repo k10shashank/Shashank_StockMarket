@@ -1,6 +1,15 @@
 <h1>Manage Company Component</h1>
 
 <div class="container">
+  <a class="nav-link" [routerLink]="['/managecompany']"><button class="btn btn-primary">Manage Company</button></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="nav-link" [routerLink]="['/stockexchange']"><button class="btn btn-primary">Manage StockExchange</button></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="nav-link" [routerLink]="['/managecompany']"><button class="btn btn-primary">Import Data</button></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="nav-link" [routerLink]="['/adminlogin']"><button class="btn btn-primary">Log Out</button></a>
+</div>
+<div class="container">
     <table  class="table table-bordered table-hover">
       <tr>
         <td>Company Code</td>

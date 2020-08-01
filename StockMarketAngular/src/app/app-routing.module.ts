@@ -8,17 +8,23 @@ import { SignupComponent } from './containers/signup/signup.component';
 import { BarchartComponent } from './containers/barchart/barchart.component';
 import { AdminloginComponent } from './containers/adminlogin/adminlogin.component';
 import { UserviewCompaniesComponent } from './containers/userview-companies/userview-companies.component';
+import { AppbaseComponent } from './containers/appbase/appbase.component';
+import { AdminappComponent } from './containers/adminapp/adminapp.component';
+import { UserappComponent } from './containers/userapp/userapp.component';
 
 
 const routes: Routes = [
-  {path:'', component: AppComponent},
+  {path:'', component: AppbaseComponent},
   {path:'userlogin', component: UserloginComponent},
   {path:'signup', component: SignupComponent},
   {path:'managecompany', component: ManageCompaniesComponent},
   {path:'stockexchange', component: StockexchangeComponent},
   {path:'barchart', component: BarchartComponent},
   {path:'adminlogin', component: AdminloginComponent},
-  {path:'userviewcompany', component: UserviewCompaniesComponent}
+  {path:'userviewcompany', component: UserviewCompaniesComponent},
+  {path:'appbase', component: AppbaseComponent},
+  {path:'adminapp', component: AdminappComponent},
+  {path:'userapp', component: UserappComponent}
 ];
 
 @NgModule({

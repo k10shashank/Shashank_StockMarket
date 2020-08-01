@@ -36,7 +36,9 @@ export class SignupComponent implements OnInit {
     this.userObject.mobile = this.mobile;
     this.userObject.confirmed = this.confirmed;
 
-    this.service.Signup(this.userObject).subscribe(response => {}, err => {
+    this.service.Signup(this.userObject).subscribe(response => {
+      this.router.navigate(['/userlogin']);
+    }, err => {
       console.log(err);
     })
   }

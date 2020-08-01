@@ -38,6 +38,7 @@ export class UserloginComponent implements OnInit {
       this.mobile = this.userObject.mobile;
       this.confirmed = this.userObject.confirmed;
       this.errmsg = "Valid";
+      this.router.navigate(['/userapp']);
     }, err => {
       this.resetForm();
       this.errmsg = "Invalid"
