@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.OpenApi.Models;
 
 namespace StockMarket.AdminAPI
 {
@@ -33,6 +34,13 @@ namespace StockMarket.AdminAPI
                 c.AddPolicy("AllowOrigin", options =>
                 options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             });
+
+            // add swagger statement
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+            });
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +55,13 @@ namespace StockMarket.AdminAPI
 
             //cors
             app.UseCors("AllowOrigin");
+
+            //swagger
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
 
             app.UseAuthorization();
 

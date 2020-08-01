@@ -106,5 +106,10 @@ C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.UserAPI\obj\Debug\netcoreapp3.1\StockMarket.UserAPI.dll
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.UserAPI\obj\Debug\netcoreapp3.1\StockMarket.UserAPI.pdb
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.UserAPI\obj\Debug\netcoreapp3.1\StockMarket.UserAPI.genruntimeconfig.cache
+C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.UserAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.UserAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.UserAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.UserAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.UserAPI\obj\Debug\netcoreapp3.1\StockMarket.UserAPI.csproj.CoreCompileInputs.cache
+C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.UserAPI\obj\Debug\netcoreapp3.1\StockMarket.UserAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.UserAPI\obj\Debug\netcoreapp3.1\StockMarket.UserAPI.MvcApplicationPartsAssemblyInfo.cache
