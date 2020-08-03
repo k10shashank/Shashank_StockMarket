@@ -15,7 +15,12 @@ namespace StockMarket.AdminAPI.Controllers
     [EnableCors("AllowOrigin")]
     public class CompanyController : ControllerBase
     {
-        CompanyService service = new CompanyService();
+        private CompanyService service;
+        public CompanyController(CompanyService _service)
+        {
+            service = _service;
+        }
+        //CompanyService service = new CompanyService();
 
         [HttpPost]
         [Route("AddCompany")]

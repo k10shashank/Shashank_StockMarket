@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockMarket.UserAPI", "Stoc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockMarket.ExcelAPI", "StockMarket.ExcelAPI\StockMarket.ExcelAPI.csproj", "{B0097EAC-4C16-4631-8717-CE5ACD2EC61F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarket.Gateway", "StockMarket.Gateway\StockMarket.Gateway.csproj", "{9F4F7C44-F81F-4207-8A9D-8AB69C029B09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockMarket.Gateway", "StockMarket.Gateway\StockMarket.Gateway.csproj", "{9F4F7C44-F81F-4207-8A9D-8AB69C029B09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarket.XUnitTest", "StockMarket.XUnitTest\StockMarket.XUnitTest.csproj", "{9583643A-BEB5-40EB-A254-3DDD3C8A2F55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9F4F7C44-F81F-4207-8A9D-8AB69C029B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F4F7C44-F81F-4207-8A9D-8AB69C029B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F4F7C44-F81F-4207-8A9D-8AB69C029B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9583643A-BEB5-40EB-A254-3DDD3C8A2F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9583643A-BEB5-40EB-A254-3DDD3C8A2F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9583643A-BEB5-40EB-A254-3DDD3C8A2F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9583643A-BEB5-40EB-A254-3DDD3C8A2F55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

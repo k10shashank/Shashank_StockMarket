@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StockMarket.AdminAPI.Repositories
 {
-    interface ICompanyRepository
+    public interface ICompanyRepository
     {
         List<Company> GetCompanies();
         Company GetCompanyDetails(int id);
