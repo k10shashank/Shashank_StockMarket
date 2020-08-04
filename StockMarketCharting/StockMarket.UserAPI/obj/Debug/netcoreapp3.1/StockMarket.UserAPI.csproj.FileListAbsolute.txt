@@ -116,3 +116,4 @@ C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.UserAPI\obj\Debug\netcoreapp3.1\StockMarket.UserAPI.csproj.CoreCompileInputs.cache
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.UserAPI\obj\Debug\netcoreapp3.1\StockMarket.UserAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.UserAPI\obj\Debug\netcoreapp3.1\StockMarket.UserAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.UserAPI\bin\Debug\netcoreapp3.1\nlog.config
