@@ -30,7 +30,7 @@ namespace StockMarket.XUnitTest
                 companies.Add(item);
             }).Verifiable();
             mockRepo.SetupAllProperties();
-            _service = new CompanyService(mockRepo.Object);
+            _service = new CompanyService(); // (mockRepo.Object);
         }
 
         [Fact]

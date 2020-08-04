@@ -9,12 +9,16 @@ namespace StockMarket.AdminAPI.Repositories
 
     public class CompanyRepository : ICompanyRepository
     {
-        private stockmarketdbContext db;
+        /*private stockmarketdbContext db; // = new stockmarketdbContext();
+        public CompanyRepository()
+        {
+            db = new stockmarketdbContext();
+        }
         public CompanyRepository(stockmarketdbContext _db)
         {
             db = _db;
-        }
-        //private stockmarketdbContext db = new stockmarketdbContext();
+        }*/
+        private stockmarketdbContext db = new stockmarketdbContext();
         public void AddCompany(Company item)
         {
             db.Company.Add(item);
