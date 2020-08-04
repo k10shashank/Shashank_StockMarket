@@ -110,6 +110,9 @@ C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.AccountAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.AccountAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.AccountAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.AccountAPI\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.AccountAPI\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.AccountAPI\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.csproj.CoreCompileInputs.cache
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.MvcApplicationPartsAssemblyInfo.cache

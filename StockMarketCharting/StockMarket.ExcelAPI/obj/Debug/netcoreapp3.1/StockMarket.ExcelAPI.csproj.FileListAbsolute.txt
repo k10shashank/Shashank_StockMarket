@@ -144,6 +144,9 @@ C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.ExcelAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.ExcelAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.ExcelAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.ExcelAPI\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.ExcelAPI\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.ExcelAPI\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.ExcelAPI\obj\Debug\netcoreapp3.1\StockMarket.ExcelAPI.csproj.CoreCompileInputs.cache
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.ExcelAPI\obj\Debug\netcoreapp3.1\StockMarket.ExcelAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.ExcelAPI\obj\Debug\netcoreapp3.1\StockMarket.ExcelAPI.MvcApplicationPartsAssemblyInfo.cache

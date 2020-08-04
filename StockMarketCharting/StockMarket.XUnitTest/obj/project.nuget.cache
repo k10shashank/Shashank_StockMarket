@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Wo6atTe0TY2m0cx6tNz06aC+w27Lju/dzbkEmGdb9v1Eh6tobyE+nuT9ZA/eQQ9flr4HkJ36DvaSNu505PB8lw==",
+  "dgSpecHash": "k5H+7kNvCzMjZ+4uBrWiUHfFbGqVYAZ4ZnIrlsZ4+uhlLFZwiwum67E+s33YvlOngGvYl1u0bpIgl9mipTO/5Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.XUnitTest\\StockMarket.XUnitTest.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,9 @@
     "C:\\Users\\vnssh\\.nuget\\packages\\moq\\4.14.5\\moq.4.14.5.nupkg.sha512",
     "C:\\Users\\vnssh\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\vnssh\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\vnssh\\.nuget\\packages\\nlog\\4.7.2\\nlog.4.7.2.nupkg.sha512",
+    "C:\\Users\\vnssh\\.nuget\\packages\\nlog.extensions.logging\\1.6.4\\nlog.extensions.logging.1.6.4.nupkg.sha512",
+    "C:\\Users\\vnssh\\.nuget\\packages\\nlog.web.aspnetcore\\4.9.3\\nlog.web.aspnetcore.4.9.3.nupkg.sha512",
     "C:\\Users\\vnssh\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\vnssh\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\vnssh\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

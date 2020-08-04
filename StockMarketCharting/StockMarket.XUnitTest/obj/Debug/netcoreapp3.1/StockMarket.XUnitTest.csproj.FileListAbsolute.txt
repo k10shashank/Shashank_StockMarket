@@ -139,3 +139,7 @@ C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.XUnitTest\bin\Debug\netcoreapp3.1\StockMarket.AdminAPI.pdb
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.XUnitTest\obj\Debug\netcoreapp3.1\StockMarket.XUnitTest.dll
 C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.XUnitTest\obj\Debug\netcoreapp3.1\StockMarket.XUnitTest.pdb
+C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.XUnitTest\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.XUnitTest\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.XUnitTest\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+C:\Users\vnssh\source\repos\StockMarketCaseStudy\StockMarketCharting\StockMarket.XUnitTest\bin\Debug\netcoreapp3.1\nlog.config

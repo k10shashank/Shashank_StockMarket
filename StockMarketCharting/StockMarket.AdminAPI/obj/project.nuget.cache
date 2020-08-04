@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+15h1wFaGZZ8MDUUEVcxQs+PuYncPktOpYZoZHas0wQNVVjkEH2VGjTctf/wCCLXqh80ddL3TwD49xghLigYMg==",
+  "dgSpecHash": "1l03B0Ek4qU5r01s+iTz1kEVLCFhzjgAlwHVnRtrBjErtP8UkGZMDpz/abMMMehza2CpK+N8mRhLLrq69lZ/Iw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.AdminAPI\\StockMarket.AdminAPI.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,9 @@
     "C:\\Users\\vnssh\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
     "C:\\Users\\vnssh\\.nuget\\packages\\microsoft.win32.primitives\\4.0.1\\microsoft.win32.primitives.4.0.1.nupkg.sha512",
     "C:\\Users\\vnssh\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\vnssh\\.nuget\\packages\\nlog\\4.7.2\\nlog.4.7.2.nupkg.sha512",
+    "C:\\Users\\vnssh\\.nuget\\packages\\nlog.extensions.logging\\1.6.4\\nlog.extensions.logging.1.6.4.nupkg.sha512",
+    "C:\\Users\\vnssh\\.nuget\\packages\\nlog.web.aspnetcore\\4.9.3\\nlog.web.aspnetcore.4.9.3.nupkg.sha512",
     "C:\\Users\\vnssh\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\vnssh\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\vnssh\\.nuget\\packages\\runtime.native.system.net.http\\4.0.1\\runtime.native.system.net.http.4.0.1.nupkg.sha512",
