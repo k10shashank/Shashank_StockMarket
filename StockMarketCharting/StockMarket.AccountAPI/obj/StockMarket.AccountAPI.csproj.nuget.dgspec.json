@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.AccountAPI\\StockMarket.AccountAPI.csproj": {}
+    "C:\\Users\\vnssh\\Shashank_StockMarket\\StockMarketCharting\\StockMarket.AccountAPI\\StockMarket.AccountAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.AccountAPI\\StockMarket.AccountAPI.csproj": {
+    "C:\\Users\\vnssh\\Shashank_StockMarket\\StockMarketCharting\\StockMarket.AccountAPI\\StockMarket.AccountAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.AccountAPI\\StockMarket.AccountAPI.csproj",
+        "projectUniqueName": "C:\\Users\\vnssh\\Shashank_StockMarket\\StockMarketCharting\\StockMarket.AccountAPI\\StockMarket.AccountAPI.csproj",
         "projectName": "StockMarket.AccountAPI",
-        "projectPath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.AccountAPI\\StockMarket.AccountAPI.csproj",
+        "projectPath": "C:\\Users\\vnssh\\Shashank_StockMarket\\StockMarketCharting\\StockMarket.AccountAPI\\StockMarket.AccountAPI.csproj",
         "packagesPath": "C:\\Users\\vnssh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.AccountAPI\\obj\\",
+        "outputPath": "C:\\Users\\vnssh\\Shashank_StockMarket\\StockMarketCharting\\StockMarket.AccountAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vnssh\\AppData\\Roaming\\NuGet\\NuGet.Config",

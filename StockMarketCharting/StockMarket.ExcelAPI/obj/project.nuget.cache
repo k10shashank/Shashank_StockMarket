@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2paao8fR38MxILjEuxtzFZhO4Qn2khdu38aLweq303Eu67KpRm9gE9SjFJT6zOBPv74H7h1/SLDAhDUHm/r98Q==",
+  "dgSpecHash": "q+Ap7GmnbbHnfX1PZ+lrr0sXh45Ckc+15bjWQWG1GmB37x/5UgE3T7STERJdolkihg1E/x/dkpP1NpCXOO27Sw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.ExcelAPI\\StockMarket.ExcelAPI.csproj",
+  "projectFilePath": "C:\\Users\\vnssh\\Shashank_StockMarket\\StockMarketCharting\\StockMarket.ExcelAPI\\StockMarket.ExcelAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vnssh\\.nuget\\packages\\epplus\\5.2.1\\epplus.5.2.1.nupkg.sha512",
     "C:\\Users\\vnssh\\.nuget\\packages\\log4net\\2.0.8\\log4net.2.0.8.nupkg.sha512",

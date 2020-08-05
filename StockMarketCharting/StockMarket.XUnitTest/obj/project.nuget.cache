@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k5H+7kNvCzMjZ+4uBrWiUHfFbGqVYAZ4ZnIrlsZ4+uhlLFZwiwum67E+s33YvlOngGvYl1u0bpIgl9mipTO/5Q==",
+  "dgSpecHash": "2Ebf/HVHgQth2ZLfkq4Ba6Dc3E86xtwaQfQ5IjUSC2D/A+LMC31AdV6quL6k2FyrWNj2WiIcjEuCEMBiDtu66w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.XUnitTest\\StockMarket.XUnitTest.csproj",
+  "projectFilePath": "C:\\Users\\vnssh\\Shashank_StockMarket\\StockMarketCharting\\StockMarket.XUnitTest\\StockMarket.XUnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vnssh\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\vnssh\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",

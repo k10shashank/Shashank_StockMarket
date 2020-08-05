@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GSISkzyvCG/rneg3oZa6Om0Q2wWlbiZ7OU82+xOfuU3igOGrMXs6xt3/Vx5eliv0OmbI1WHu5tv5NXWR2t8Xxg==",
+  "dgSpecHash": "0Ix6/mKzDyOlHtRLhl2LZL8dl4mPJWpPXs1ZsvIYk71iQECDqLi5a3JEbtfXwbClsPnYRzR9Hi3YyhZfCjdBqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.UserAPI\\StockMarket.UserAPI.csproj",
+  "projectFilePath": "C:\\Users\\vnssh\\Shashank_StockMarket\\StockMarketCharting\\StockMarket.UserAPI\\StockMarket.UserAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vnssh\\.nuget\\packages\\log4net\\2.0.8\\log4net.2.0.8.nupkg.sha512",
     "C:\\Users\\vnssh\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",

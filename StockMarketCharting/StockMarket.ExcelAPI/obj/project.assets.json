@@ -8534,11 +8534,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.ExcelAPI\\StockMarket.ExcelAPI.csproj",
+      "projectUniqueName": "C:\\Users\\vnssh\\Shashank_StockMarket\\StockMarketCharting\\StockMarket.ExcelAPI\\StockMarket.ExcelAPI.csproj",
       "projectName": "StockMarket.ExcelAPI",
-      "projectPath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.ExcelAPI\\StockMarket.ExcelAPI.csproj",
+      "projectPath": "C:\\Users\\vnssh\\Shashank_StockMarket\\StockMarketCharting\\StockMarket.ExcelAPI\\StockMarket.ExcelAPI.csproj",
       "packagesPath": "C:\\Users\\vnssh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.ExcelAPI\\obj\\",
+      "outputPath": "C:\\Users\\vnssh\\Shashank_StockMarket\\StockMarketCharting\\StockMarket.ExcelAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vnssh\\AppData\\Roaming\\NuGet\\NuGet.Config",

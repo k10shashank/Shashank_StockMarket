@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K9XA4rsEMEDxSTbhNSr/RSldrdi/I84z9jDRJV6f8B2BwVuPBE+EEJq70jJaTfcOxyBqAJffWxejCEQ1viQXZQ==",
+  "dgSpecHash": "EqG6cOswOYY1vztExIGXDfaJ1q7cyNbJIq1mjyS4WcY80O2vtTT2ZoXfDTdsebn42BmSdcrm+QYB0tTkg0nJAQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vnssh\\source\\repos\\StockMarketCaseStudy\\StockMarketCharting\\StockMarket.AccountAPI\\StockMarket.AccountAPI.csproj",
+  "projectFilePath": "C:\\Users\\vnssh\\Shashank_StockMarket\\StockMarketCharting\\StockMarket.AccountAPI\\StockMarket.AccountAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vnssh\\.nuget\\packages\\log4net\\2.0.8\\log4net.2.0.8.nupkg.sha512",
     "C:\\Users\\vnssh\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.6\\microsoft.aspnetcore.authentication.jwtbearer.3.1.6.nupkg.sha512",
