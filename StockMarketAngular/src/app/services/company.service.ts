@@ -7,8 +7,8 @@ import { Company } from '../models/company';
   providedIn: 'root'
 })
 export class CompanyService {
-  //path: string = "http://localhost:59534/api/Company/"
-  path: string = "http://localhost:8090/api/Company/";
+  path: string = "http://localhost:59534/api/Company/"
+  //path: string = "http://localhost:8090/api/Company/";
 
   constructor(private http: HttpClient) { }
 
